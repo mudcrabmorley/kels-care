@@ -12,7 +12,7 @@
   }
 
   .btn-secondary {
-    @apply border-2 border-can-can-300 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transition duration-300 ease-in-out hover:border-can-can-400 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
+    @apply border-2 border-can-can-300 bg-can-can-600 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transition duration-300 ease-in-out hover:border-can-can-400 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
   }
 
   .spacer {
