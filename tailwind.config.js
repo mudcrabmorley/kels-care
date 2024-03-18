@@ -8,19 +8,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
 
-      backdropBlur: {
-        none: "0",
-        sm: "0.1px",
-        DEFAULT: "8px",
-        md: "12px",
-        lg: "16px",
-        xl: "24px",
-        "2xl": "40px",
-        "3xl": "64px",
-      },
-
       colors: {
-        // Add this section
         "can-can": {
           50: "#fcf4f4",
           100: "#f9eaeb",
@@ -42,8 +30,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        texture: "url(/img/bg-2.webp)",
         "hero-bg": "url(/img/sun-tornado.svg)",
+        "hero-bg-mobile": "url(/img/sun-tornado-mobile.svg)",
       },
     },
   },

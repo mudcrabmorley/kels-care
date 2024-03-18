@@ -892,8 +892,13 @@ section {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-hero-bg {
-  background-image: url(/img/sun-tornado.svg);
+.bg-can-can-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 182 190 / var(--tw-bg-opacity));
+}
+
+.bg-hero-bg-mobile {
+  background-image: url(/img/sun-tornado-mobile.svg);
 }
 
 .bg-cover {
@@ -1173,6 +1178,10 @@ section {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:bg-hero-bg {
+    background-image: url(/img/sun-tornado.svg);
   }
 
   .md\:text-center {
