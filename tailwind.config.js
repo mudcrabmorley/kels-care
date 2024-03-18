@@ -43,7 +43,7 @@ module.exports = {
 
       backgroundImage: {
         texture: "url(/img/bg-2.webp)",
-        "hero-bg": "url(/img/stacked-waves.png)",
+        "hero-bg": "url(/img/sun-tornado.svg)",
       },
     },
   },
