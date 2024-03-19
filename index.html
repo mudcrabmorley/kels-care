@@ -38,11 +38,11 @@
 
 </head>
 
-<body class="bg-hero-bg-mobile md:bg-hero-bg bg-cover bg-fixed bg-no-repeat font-poppins mx-auto">
+<body class="font-poppins mx-auto bg-can-can-200">
   <div id="loading-screen"></div>
 
   <!-- HERO -->
-  <section class="flex items-center justify-center p-4 text-can-can-900">
+  <section class="flex items-center justify-center p-4 text-can-can-900 bg-hero-bg bg-cover bg-no-repeat">
 
     <div class="m-4 mt-4 md:w-10/12 2xl:w-1/2 mx-auto p-0 flex flex-col items-center justify-center">
       <img class="float-left mb-10 md:mb-20 md:m-8 w-32 h-32 md:w-64 md:h-64 rounded-full border-4 border-can-can-300"
@@ -54,18 +54,18 @@
           </h1>
         </a>
         <h2
-          class="md:text-9xl text-5xl text-center font-bold font-amatic tracking-wide mt-8 text-shadow border-t-4 border-can-can-900 text-can-can-700 pt-8"
+          class="md:text-9xl text-5xl text-center font-bold font-amatic tracking-wide mt-8 text-shadow border-t-4 border-can-can-900 text-can-can-800 pt-8"
           data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
           Dedicated Social Worker
         </h2>
         <div class="spacer"></div>
-        <h3 class="text-2xl text-shadow text-center text-can-can-700" data-aos="zoom-out" data-aos-duration="1000"
+        <h3 class="text-2xl text-shadow text-center text-can-can-800" data-aos="zoom-out" data-aos-duration="1000"
           data-aos-delay="2000">
           Brisbane, Australia
         </h3>
         <div class="spacer"></div>
         <a href="#contact">
-          <button class="btn-secondary shadow-2xl border-2 w-full" data-aos="zoom-out" data-aos-duration="1000"
+          <button class="btn-primary shadow-2xl border-2 w-full" data-aos="zoom-out" data-aos-duration="1000"
             data-aos-anchor-placement="top-bottom" data-aos-delay="3000">GET IN
             TOUCH</button>
         </a>
@@ -180,114 +180,166 @@
   <section class="2xl:w-3/5 mx-auto">
     <h2 class="text-7xl font-bold font-amatic text-can-can-900 text-shadow p-4 ">EXPERIENCE</h2>
     <div class="spacer hidden md:block"></div>
-    <div class="p-4 grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
+    <!-- CARD CONTAINER -->
+    <div class="p-4 grid md:grid-cols-1 gap-6 mx-auto">
 
       <!-- CARD 1 -->
-      <div class="card flex flex-col justify-between">
-        <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/anglicare-logo.webp" alt="Anglicare logo">
-        <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
-          Foster and Kinship Care Practitioner
-        </h5>
-        <h6 class="text-xl text-gray-700 space">
-          Anglicare Southern Queensland <br />
-          <p class="text-gray-700 text-lg my-2 mb-4">August 2022 – Current</p>
-        </h6>
-
-        <details class="p-4 bg-can-can-200 rounded-md">
-          <summary class="text-lg text-can-can-900 cursor-pointer">
-            <span class="ml-2">Key Responsibilities</span>
-          </summary>
-          <ul class="my-2 text-gray-700">
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Efficiently managing caseloads, ensuring adherence
-              to
-              departmental policies, procedures, and statutory requirements</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Developing positive professional relationships with
-              various stakeholders, including families, children, foster and kinship carers, Child Safety, and
-              others
-            </li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Conducting ongoing informal and formal assessments
-              of
-              foster carers' capacity, completing detailed assessment reports, and ensuring compliance with relevant
-              legislation, such as the Queensland Child Protection Act 1999 and Declaration of Human Rights</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Applying trauma-based, recovery and strengths-based,
-              child development, and attachment theories in client engagement and assessments</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Collaborating within a team to plan and execute
-              community development projects, contributing to broader community engagement and improvement</li>
-          </ul>
-        </details>
+      <div class="card-job flex flex-col justify-between">
+        <!-- TITLES CONTAINER -->
+        <div class="flex flex-col">
+          <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/anglicare-logo.webp" alt="Anglicare logo">
+          <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
+            Foster and Kinship Care Practitioner
+          </h5>
+          <h6 class="text-xl text-gray-700 space">
+            Anglicare Southern Queensland <br />
+            <p class="text-gray-700 text-lg my-2 mb-4">August 2022 – Current</p>
+          </h6>
+        </div>
+        <!-- TAB 1 -->
+        <div class=" text-gray-700 py-1 bg-can-can-50 px-3 rounded-lg outline-none group" tabindex="1">
+          <!-- TAB FLEX CONTAINER -->
+          <div class="flex items-center justify-between py-2 transition duration-500 cursor-pointer group ease">
+            <!-- TAB TITLE -->
+            <div class="transition duration-500 ease group-hover:text-can-can-900">
+              Responsibilities
+            </div>
+            <!-- ARROW -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-can-can-900 md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  d="m17 14l-5-5m0 0l-5 5" />
+              </svg>
+            </div>
+          </div>
+          <!-- TAB INNER CONTENT -->
+          <div class="overflow-hidden transistion duration-500 group-focus:max-h-screen max-h-0 md:max-h-screen ease">
+            <ul class="my-2 text-gray-900 font-light">
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Efficiently managing caseloads, ensuring adherence
+                to
+                departmental policies, procedures, and statutory requirements</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Developing positive professional relationships with
+                various stakeholders, including families, children, foster and kinship carers, Child Safety, and
+                others
+              </li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Conducting ongoing informal and formal assessments
+                of
+                foster carers' capacity, completing detailed assessment reports, and ensuring compliance with relevant
+                legislation, such as the Queensland Child Protection Act 1999 and Declaration of Human Rights</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Applying trauma-based, recovery and strengths-based,
+                child development, and attachment theories in client engagement and assessments</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Collaborating within a team to plan and execute
+                community development projects, contributing to broader community engagement and improvement</li>
+            </ul>
+          </div>
+        </div>
 
       </div>
 
       <!-- CARD 2 -->
-      <div class="card flex flex-col justify-between">
-        <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/qldgov-logo.webp" alt="Queensland gov logo">
-        <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
-          Child Safety Officer - Ongoing Intervention
-        </h5>
-        <h6 class="text-xl text-gray-700 space">
-          Department of Children, Youth Justice and Multicultural Affairs <br />
-          <p class="text-gray-700 text-sm my-2 mb-4">December 2021 – August 2022</p>
-        </h6>
-
-        <details class="p-4 bg-can-can-200 rounded-md">
-          <summary class="text-lg text-can-can-900 cursor-pointer">
-            <span class="ml-2">Key Responsibilities</span>
-          </summary>
-          <ul class="my-2 text-gray-700">
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Building strong rapport with families and children,
-              utilizing a child-focused and strengths-based framework to achieve positive outcomes and reach case
-              plan
-              goals.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Working collaboratively within a team to undertake
-              high-quality practice, including short-term interventions and various case plan discussions.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Developing positive professional relationships with
-              stakeholders, maintaining accurate records, and meeting court deadlines in accordance with policy
-              requirements.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Efficiently managing caseloads, ensuring adherence
-              to
-              departmental policies, procedures, and statutory requirements.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Using departmental practice tools in engaging
-              clients in
-              case discussions in a way that is understood by all parties.</li>
-          </ul>
-        </details>
+      <div class="card-job flex flex-col justify-between">
+        <!-- TITLES CONTAINER -->
+        <div class="flex flex-col">
+          <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/qldgov-logo.webp" alt="Queensland gov logo">
+          <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
+            Child Safety Officer - Ongoing Intervention
+          </h5>
+          <h6 class="text-xl text-gray-700 space">
+            Department of Children, Youth Justice and Multicultural Affairs <br />
+            <p class="text-gray-700 text-sm my-2 mb-4">December 2021 – August 2022</p>
+          </h6>
+        </div>
+        <!-- TAB 2 -->
+        <div class=" text-gray-700 py-1 bg-can-can-50 px-3 rounded-lg outline-none group" tabindex="2">
+          <!-- TAB FLEX CONTAINER -->
+          <div class="flex items-center justify-between py-2 transition duration-500 cursor-pointer group ease">
+            <!-- TAB TITLE -->
+            <div class="transition duration-500 ease group-hover:text-can-can-900">
+              Responsibilities
+            </div>
+            <!-- ARROW -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-can-can-900 md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  d="m17 14l-5-5m0 0l-5 5" />
+              </svg>
+            </div>
+          </div>
+          <!-- TAB INNER CONTENT -->
+          <div class="overflow-hidden transistion duration-500 group-focus:max-h-screen max-h-0 md:max-h-screen ease">
+            <ul class="my-2 text-gray-900 font-light">
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Building strong rapport with families and children,
+                utilizing a child-focused and strengths-based framework to achieve positive outcomes and reach case
+                plan
+                goals.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Working collaboratively within a team to undertake
+                high-quality practice, including short-term interventions and various case plan discussions.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Developing positive professional relationships with
+                stakeholders, maintaining accurate records, and meeting court deadlines in accordance with policy
+                requirements.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Efficiently managing caseloads, ensuring adherence
+                to
+                departmental policies, procedures, and statutory requirements.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Using departmental practice tools in engaging
+                clients in
+                case discussions in a way that is understood by all parties.</li>
+            </ul>
+          </div>
+        </div>
 
       </div>
 
       <!-- CARD 3 -->
-      <div class="card flex flex-col justify-between">
-        <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/qldgov-logo.webp" alt="Queensland gov logo">
-        <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
-          Social Work Placement
-        </h5>
-        <h6 class="text-xl text-gray-700 space">
-          Department of Children, Youth Justice and Multicultural Affairs <br />
-          <p class="text-gray-700 text-sm my-2 mb-4">July 2021 – November 2021</p>
-        </h6>
-
-        <details class="p-4 bg-can-can-200 rounded-md">
-          <summary class="text-lg text-can-can-900 cursor-pointer">
-            <span class="ml-2">Key Responsibilities</span>
-          </summary>
-          <ul class="my-2 text-gray-700">
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Defining and working towards student goals to ensure
-              their academic and personal success. As well as engaging in regular reflections and supervision
-              sessions
-              to enhance professional growth and effectiveness.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Minute taking in stakeholder and client meetings,
-              coupled with comprehensive case note documentation to keep the system up-to-date.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Assisting clients in achieving their case plan goals
-              through referrals, addressing barriers, and implementing concurrent planning strategies.</li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Engaging in workplace learning modules, adhering to
-              organizational Code of Ethics and Policies, and continually learning culturally appropriate practices.
-            </li>
-            <li class="mb-2 border-b-2 border-can-can-200 py-2">Working collaboratively with team members in home
-              visits, meetings, and case management discussions.</li>
-          </ul>
-        </details>
-
+      <div class="card-job flex flex-col justify-between">
+        <!-- TITLES CONTAINER -->
+        <div class="flex flex-col">
+          <img class="w-16 h-16 rounded-full mb-3" src="./img/logos/qldgov-logo.webp" alt="Queensland gov logo">
+          <h5 class="mb-2 text-2xl  tracking-tight text-gray-900">
+            Social Work Placement
+          </h5>
+          <h6 class="text-xl text-gray-700 space">
+            Department of Children, Youth Justice and Multicultural Affairs <br />
+            <p class="text-gray-700 text-sm my-2 mb-4">July 2021 – November 2021</p>
+          </h6>
+        </div>
+        <!-- TAB 3 -->
+        <div class=" text-gray-700 py-1 bg-can-can-50 px-3 rounded-lg outline-none group" tabindex="3">
+          <!-- TAB FLEX CONTAINER -->
+          <div class="flex items-center justify-between py-2 transition duration-500 cursor-pointer group ease">
+            <!-- TAB TITLE -->
+            <div class="transition duration-500 ease group-hover:text-can-can-900">
+              Responsibilities
+            </div>
+            <!-- ARROW -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-can-can-900 md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  d="m17 14l-5-5m0 0l-5 5" />
+              </svg>
+            </div>
+          </div>
+          <!-- TAB INNER CONTENT -->
+          <div class="overflow-hidden transistion duration-500 group-focus:max-h-screen max-h-0 md:max-h-screen ease">
+            <ul class="my-2 text-gray-900 font-light">
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Defining and working towards student goals to ensure
+                their academic and personal success. As well as engaging in regular reflections and supervision
+                sessions
+                to enhance professional growth and effectiveness.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Minute taking in stakeholder and client meetings,
+                coupled with comprehensive case note documentation to keep the system up-to-date.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Assisting clients in achieving their case plan goals
+                through referrals, addressing barriers, and implementing concurrent planning strategies.</li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Engaging in workplace learning modules, adhering to
+                organizational Code of Ethics and Policies, and continually learning culturally appropriate practices.
+              </li>
+              <li class="mb-2 border-b-2 border-can-can-200 py-2">Working collaboratively with team members in home
+                visits, meetings, and case management discussions.</li>
+            </ul>
+            </ul>
+          </div>
+        </div>
       </div>
-
+    </div>
   </section>
   <div class="spacer-lg"></div>
   <hr class="border-t-4 border-can-can-900 my-8 w-11/12 mx-auto" />
@@ -345,14 +397,14 @@
     <div class=" spacer">
     </div>
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md" data-aos="fade-in" data-aos-duration="1000">
-      <h2 class="font-amatic tracking-wide mb-4 text-7xl font-extrabold md:text-center text-gray-100">GET IN TOUCH
+      <h2 class="font-amatic tracking-wide mb-4 text-7xl font-extrabold text-center text-gray-100">GET IN TOUCH
       </h2>
-      <p class="mb-8 max-w-md mx-auto lg:mb-16 text-gray-100 md:text-center font-normal">
+      <p class="mb-8 max-w-md mx-auto lg:mb-16 text-gray-100 text-center font-normal">
         Please don't hesitate to get in touch if you'd like to discuss potential opportunities, collaborations, or
         if
         you just want to say hello and connect.</p>
       <!-- FORM -->
-      <form action="https://formspree.io/f/xyyqrgll" method="POST" class="space-y-8 font-poppins md:w-1/2 md:mx-auto">
+      <form action="https://formspree.io/f/xyyqrgll" method="POST" class="space-y-8 font-poppins md:w-3/4 md:mx-auto">
         <div>
           <label for="email" class="block mb-2 font-medium text-gray-200  :text-gray-300">Email</label>
           <input type="email " name="email" id="email"
@@ -370,7 +422,7 @@
           <textarea id="message" name="message" rows="6"
             class="block p-2.5 w-full text-sm text-gray-800 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "></textarea>
         </div>
-        <button type="submit" class="btn-secondary-2 w-full md:w-32">SEND MESSAGE</button>
+        <button type="submit" class="btn-secondary w-full md:w-32">SEND MESSAGE</button>
       </form>
     </div>
     <div class="spacer"></div>

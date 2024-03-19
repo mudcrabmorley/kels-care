@@ -4,12 +4,12 @@
 
 @layer components {
 
-  .btn-secondary {
-    @apply border-2 border-can-can-700 bg-can-can-700 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transition duration-300 ease-in-out hover:border-can-can-700 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
+  .btn-primary {
+    @apply border-2 border-can-can-700 bg-can-can-700 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transform duration-300 ease-in-out hover:border-can-can-500 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
   }
 
-  .btn-secondary-2 {
-    @apply border-2 border-can-can-500 bg-can-can-500 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transition duration-300 ease-in-out hover:border-can-can-500 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
+  .btn-secondary {
+    @apply border-2 border-can-can-500 bg-can-can-500 py-3 px-6 rounded-full text-can-can-300 font-poppins shadow-xl transform duration-300 ease-in-out hover:border-can-can-500 hover:bg-can-can-400  hover:text-can-can-900 hover:scale-90;
   }
 
   .spacer {
@@ -20,7 +20,11 @@
   }
 
   .card {
-    @apply max-w-sm p-6 bg-can-can-300 border border-gray-200/10 rounded-2xl shadow;
+    @apply max-w-sm p-6 bg-can-can-100 border border-gray-200/10 rounded-2xl shadow;
+  }
+
+  .card-job {
+    @apply max-w-sm md:max-w-3xl p-6 bg-can-can-100 border border-gray-200/10 rounded-2xl shadow;
   }
 
   section {
